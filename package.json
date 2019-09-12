@@ -1,0 +1,23 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahMcKay/node-db4-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElijahMcKay/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/ElijahMcKay/node-db4-challenge#readme",
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  }
+}
