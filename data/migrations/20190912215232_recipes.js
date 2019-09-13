@@ -10,7 +10,7 @@ exports.up = function(knex) {
       tbl.string('name')
         .notNullable();   
   })
-  .createTable('recipes_ingredients', tbl => {
+  .createTable('recipe_ingredients', tbl => {
       tbl.integer('recipe_id')
         .unsigned()
         .notNullable()
