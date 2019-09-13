@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/ElijahMcKay/node-db4-challenge#readme",
   "dependencies": {
+    "helmet": "^3.21.0",
+    "knex": "^0.19.4",
     "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
